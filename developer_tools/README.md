@@ -6,6 +6,12 @@ Developer Tools allow to block request, detect 404 issues dand get information a
 
 ## Website : 💻
 Here is the website to analyze :  https://dev-tools.hbtn.info/
+<hr>
+<p align="center"><br>
+  <img src="https://github.com/user-attachments/assets/b99534f8-f054-48e0-938e-c31d34ac731a">
+</p>
+
+<hr>
 
 ### Tasks 🚀
 35 tasks for this project :
