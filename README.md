@@ -7,3 +7,7 @@ Create an HTML page from a wireframe, focus on the HTML structure only - no CSS,
 </p>
 
 <hr>
+
+## Second project : css advanced
+This project is following the html advanced project.
+For this project, we will focus on the CSS and the style of the page.
