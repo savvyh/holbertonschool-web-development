@@ -161,3 +161,145 @@ header {
     font-size: 22px;
     color: #ffffff;
 }
+
+.tutorials-title {
+    color: #071629;
+    font-weight: lighter;
+    font-size: 32px;
+}
+
+.tutorials-title span {
+    color: #C271FF;
+    font-weight: bold;
+}
+
+.tutorials h2 {
+    color: #071629;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.tutorials p {
+    color: #07162980;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.video-avatar {
+    width: 30px;
+    height: 30px;
+}
+
+.tutorials h3 {
+    color: #C271FF;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.ranking img {
+    width: 15px;
+    height: 15px;
+}
+
+.ranking p {
+    color: #C271FF;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.membership {
+    background-color: #071629;
+}
+
+.membership h1 {
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 32px;
+}
+
+.membership-title {
+    color: #C271FF;
+    font-weight: bold;
+}
+
+.membership img {
+    width: 43.67px;
+    height: 35.35px;
+}
+
+.membership h2 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.membership p {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.membership button {
+    font-size: 14px;
+    width: 162px;
+    height: 44px;
+}
+
+.faq h1 {
+    font-size: 60px;
+    font-weight: lighter;
+    color: #071629;
+}
+
+.faq h2 {
+    color: #071629;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.faq p {
+    color: #07162980;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer {
+    background-color: #071629;
+    width: 100%;
+    height: 249px;
+    position: relative;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 163px;
+    padding-right: 240px;
+}
+
+.footer-logo {
+    width: 169px;
+    height: 30px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-social img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer p {
+    position: absolute;
+    top: 195px;
+    left: 672px;
+    color: #ffffff;
+    opacity: 0.35;
+    font-size: 12px;
+    font-weight: 400;
+}
