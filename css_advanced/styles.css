@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+button {
+    text-transform: uppercase;
+    background-color: #C271FF;
+    color: #ffffff;
+    font-weight: 400;
+    border-radius: 22px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    border: none;
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 171px;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    width: 167.02px;
+    height: 29.46px;
+}
+
+.nav-container {
+    left: 1041px;
+    top: 37px;
+}
+
+.navbar {
+    width: 234px;
+    height: 15px;
+    display: flex;
+    gap: 53px;
+}
+
+.link-nav {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.banner {
+    background-image:url(images/background-image.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 200px 0;
+    height: 1093px;
+}
+
+.banner-title {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 120px;
+    margin-bottom: 15px;
+}
+
+.banner-content {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.banner-button {
+    font-size: 14px;
+    width: 162px;
+    height: 44px;
+    margin-top: 42px;
+}
+
+.banner-subtitle {
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 32px;
+    margin-top: 173px;
+}
+
+.banner-subtitle span {
+    color: #C271FF;
+    font-weight: bold;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    gap: 139px;
+    margin-top: 90px;
+}
+
+.avatar img {
+    width: 150px;
+    height: 150px;
+}
+
+.avatar h3 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.avatar p {
+    color: #ffffff;
+    font-style: italic;
+    font-size: 16px;
+    width: 150px;
+    height: 48px;
+}
+
+.testimonials {
+    background-color: #C271FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 53px;
+    height: 392px;
+}
+
+.testimonials img {
+    width: 160px;
+    height: 160px;
+}
+
+.testimonials blockquote {
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.testimonials-name {
+    font-weight: bold;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.testimonials-job {
+    font-style: italic;
+    font-size: 22px;
+    color: #ffffff;
+}
