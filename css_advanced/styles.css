@@ -119,6 +119,7 @@ header {
     color: #ffffff;
     font-size: 18px;
     font-weight: 900;
+    margin-top: 17px;
 }
 
 .avatar p {
@@ -161,10 +162,17 @@ header {
     color: #ffffff;
 }
 
+.tutorials {
+    text-align: center;
+    margin-top: 96px;
+    margin-bottom: 100px;
+}
+
 .tutorials-title {
     color: #071629;
     font-weight: lighter;
     font-size: 32px;
+    margin-bottom: 78px;
 }
 
 .tutorials-title span {
@@ -172,16 +180,60 @@ header {
     font-weight: bold;
 }
 
-.tutorials h2 {
+.video-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.video-card {
+    position: relative;
+    max-width: 255px;
+    text-align: left;
+}
+
+.video-preview {
+    position: relative;
+    width: 255px;
+    height: 154px;
+}
+
+.video {
+    width: 255px;
+    height: 154px;
+    object-fit: cover;
+}
+
+.play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 64px;
+    height: 64px;
+    opacity: 0.9;
+}
+
+.video-card h2 {
     color: #071629;
     font-weight: bold;
     font-size: 16px;
+    margin-top: 21px;
+    margin-bottom: 15px;
 }
 
-.tutorials p {
-    color: #07162980;
-    font-weight: 400;
+.video-card p {
+    color: rgba(7, 22, 41, 0.5);
     font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
 }
 
 .video-avatar {
@@ -189,21 +241,32 @@ header {
     height: 30px;
 }
 
-.tutorials h3 {
+.author h3 {
     color: #C271FF;
     font-size: 14px;
     font-weight: 600;
 }
 
-.ranking img {
+.ranking {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stars {
+    display: flex;
+    gap: 8px;
+}
+
+.stars img {
     width: 15px;
     height: 15px;
 }
 
 .ranking p {
     color: #C271FF;
-    font-size: 14px;
     font-weight: 600;
+    margin: 0;
 }
 
 .membership {
