@@ -5,7 +5,6 @@
 }
 
 body {
-
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -209,40 +208,65 @@ header {
 
 .membership {
     background-color: #071629;
+    padding: 78px 0;
 }
 
 .membership h1 {
     color: #ffffff;
     font-weight: lighter;
     font-size: 32px;
+    text-align: center;
+    margin-bottom: 57px;
 }
 
 .membership-title {
     color: #C271FF;
     font-weight: bold;
+    
+}
+
+.membership-container {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    padding: 0 210px;
+    margin-bottom: 90px;
+}
+
+.membership-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .membership img {
     width: 43.67px;
     height: 35.35px;
+    margin-bottom: 35px;
 }
 
 .membership h2 {
     color: #ffffff;
     font-size: 18px;
     font-weight: 600;
+    margin-bottom: 24px;
 }
 
 .membership p {
     color: #ffffff;
     font-size: 14px;
     font-weight: 400;
+    line-height: 1.5;
 }
 
 .membership button {
+    display: block;
+    margin: auto;
     font-size: 14px;
     width: 162px;
     height: 44px;
+    margin-top: 90px;
 }
 
 .faq {
