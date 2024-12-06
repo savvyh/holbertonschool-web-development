@@ -245,22 +245,42 @@ header {
     height: 44px;
 }
 
+.faq {
+    padding: 0 250px;
+    margin-bottom: 90px;
+}
+
 .faq h1 {
     font-size: 60px;
     font-weight: lighter;
     color: #071629;
+    margin-top: 84px;
+    text-align: center;
 }
 
-.faq h2 {
+.faq-container {
+    display: flex;
+    justify-content: center;
+    gap: 220px;
+}
+
+.faq-column {
+    flex: 1;
+    max-width: 350px;
+}
+
+.faq-item h2 {
     color: #071629;
     font-size: 16px;
     font-weight: bold;
+    margin-top: 80px;
 }
 
 .faq p {
     color: #07162980;
     font-size: 14px;
     font-weight: 400;
+    margin-top: 32px;
 }
 
 .footer {
